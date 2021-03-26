@@ -25,7 +25,7 @@ class ComponentWithProps extends Component {
 // ReactDOM.render(<ComponentWithProps value="Hello" obj={{name:"Jahn"}}/>, document.getElementById("root"))
 
 class ComponentWithMultipleProps extends Component {
-    constructor(props) {
+    constructor(props) {     // 클래스 컴포넌트  prop값 받는 것
         super(props)
 
         console.log(props)
