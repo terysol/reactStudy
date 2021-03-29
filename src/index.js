@@ -7,4 +7,5 @@
 // import './component-intermediate/set-state-caveat/'
 // import './component-intermediate/counter-demo'
 // import './component-intermediate/shallow-merge-caveat/'
-import './component-intermediate/manipulate-list'
+// import './component-intermediate/manipulate-list'
+ import './component-intermediate/todo-app-demo'
