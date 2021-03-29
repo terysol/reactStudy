@@ -64,7 +64,8 @@ class PersonProfile extends Component {
             <h1>Profile</h1>
             <img src={profile} />
             <p>name : {name}</p>
-            <p>age : {age}</p> <p>gender : {gender}</p>
+            <p>age : {age}</p>
+            <p>gender : {gender}</p>
         </div>
         )
     }
@@ -81,6 +82,7 @@ PersonProfile.defaultProps = {
     name: "Unknown",
     profile: 'https://via.placeholder.com/150'
 }
+
 // 클래스에 propTypes 속성 설정하여 타입 지정 가능
 PersonProfile.propTypes = {
 // 속성이름 : PropTypes.자료형[.isRequired]
