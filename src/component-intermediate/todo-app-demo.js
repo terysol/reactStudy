@@ -9,7 +9,7 @@ class TodoItem extends Component {
             <div>
                 <div>
                     <span
-                        style={completed ? { textDecoration: 'line-through' } : null}
+                        style={completed ? { textDecoration: 'line-through' } : null}   // 취소선 긋기
                         onClick={() => this.props.handleTodoStatusToggle(this.props.idx)}>
                         {text}
                     </span>&nbsp;
@@ -51,11 +51,11 @@ class TodoAdder extends Component {
         }
     }
 
-    handleChange = (e) => {
-        this.setState({ input: e.target.value })
+    handleChange = (e) => {          // this는  TodoAdder이다.
+        this.setState({ input: e.target.value })   // 눌려서 변화는 값을 input에 대입하는 중
     }
 
-    render() {
+    render() {     // render()는 바인드 해준다. 우리가 만들어준 것은 화살표함수를 사용해야함.
         return (
             <div>
                 <input type='text' onChange={this.handleChange} value={this.state.input} />
