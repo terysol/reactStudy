@@ -43,7 +43,7 @@ const favorites = <div>
     favorites])*/
 
 const rootDiv = <div id="mydiv">
-    {img}
+    {img}ote
     {paragraph}
     {favorites}
 </div>  // 바꾼게 jsx
