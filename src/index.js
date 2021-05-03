@@ -19,7 +19,18 @@
 // import './component-advanced/reservation-form'
 // import './component-intermediate/lifecycle-method-component-did-update'
 // import './component-advanced/forwarding-refs'
+// import './component-advanced/uncontrolled-component'
 // import './component-advanced/hoc-1'
 // import './component-advanced/hoc-2'
-import './component-advanced/hoc-3'
+// import './component-advanced/hoc-3'
 
+// import './practice/add_remove_update'
+// import './practice/timer'
+// import './practice/jdl'
+
+// import './practice/make-image-slider-3105-solmin'
+// import './component-advanced/context-api'
+// import './component-advanced/context-api-theme-context'
+
+// import './component-styling/using-css'
+import './component-styling/using-css-module'
