@@ -8,7 +8,7 @@
 // import './component-intermediate/counter-demo'
 // import './component-intermediate/shallow-merge-caveat/'
 // import './component-intermediate/manipulate-list'
-// import './component-intermediate/todo-app-demo'
+import './component-intermediate/todo-app-demo'
 // import './component-intermediate/lifecycle-methods'
 // import './component-intermediate/timer-demo'
 //  import './component-intermediate/lifecycle-method-should-component-update'
@@ -33,4 +33,5 @@
 // import './component-advanced/context-api-theme-context'
 
 // import './component-styling/using-css'
-import './component-styling/using-css-module'
+// import './component-styling/using-css-module'
+// import './component-styling/using-styled-components'
